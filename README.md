@@ -6,3 +6,7 @@ This took me 5 minutes to make probably has a million bugs and edge cases but I 
 
 ## What is Harons Formula?
 Its an area formula to get the area of a triangle when you only have 3 sides (don't have the height)
+
+# Compiling
+` gcc haron.c -o haron -lm -static `  
+` x86_64-w64-mingw32 haron.c -o haron -lm -static `
